@@ -117,12 +117,6 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
 
     return Container(
 
-      // decoration: const BoxDecoration(
-      //   image: DecorationImage(
-      //       image: AssetImage('assets/images/vt_backgrd.png'),
-      //       fit: BoxFit.cover)),
-
-
       child: Scaffold(
         backgroundColor:  Color.alphaBlend(Colors.white,Colors.greenAccent),
 
@@ -151,7 +145,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Icon(
-                        Icons.check_circle_sharp,
+                        Icons.audiotrack,
                         size: 16,
                         color: Theme.of(context).primaryColorDark,
                       ),
